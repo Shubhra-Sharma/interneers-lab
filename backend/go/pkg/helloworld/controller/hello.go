@@ -22,5 +22,5 @@ func (c *helloController) Hello(ctx context.Context, request *entity.HelloReques
 }
 
 func (c *helloController) HelloWorld(ctx context.Context) (*entity.HelloResponse, error) {
-	return &entity.HelloResponse{Message: "Hello, World!"}, nil
+	return &entity.HelloResponse{Message: "Hello world, this is my first Go API!"}, nil
 }
